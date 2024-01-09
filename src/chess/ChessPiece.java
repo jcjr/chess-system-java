@@ -36,7 +36,7 @@ public abstract class ChessPiece extends Piece {
 		return cp != null && cp.getColor() != color;
 	}
 	
-	public void increaseCount() {
+	protected void increaseCount() {
 		moveCount++;
 	}
 	
